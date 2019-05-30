@@ -213,7 +213,7 @@ if(message.content.split(' ')[0] == '*bc') {
   .setThumbnail(message.author.avatarURL)  
   .setAuthor(message.author.username)
 .setDescription("معلومات عن الحــساب")
-               .setFooter(`Spirits Family System.`, '')
+               .setFooter(`ASG-ESPORTS System.`, '')
   .setColor("#9B59B6")
   .addField("اســـم الحســاب", `${message.author.username}`)
   .addField('كود الحساب الخاص', message.author.discriminator)
