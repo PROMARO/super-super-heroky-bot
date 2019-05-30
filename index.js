@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(` By MΛTЯIXᴴᴰ#0028 .`,'https://www.twitch.tv/v5bz');
+  client.user.setGame(` ASG-ESPORTS .`,'https://www.twitch.tv/v5bz');
   console.log('---------------');
-  console.log('Spirits Family System Is Online')
+  console.log('ASG-ESPORTS System Is Online')
   console.log('---------------')
 });
 client.on('message', message => {
@@ -44,7 +44,7 @@ if (message.content === '*help') {
       .addField("***bc  :mega:**","**لـ البرودكاست**")
       .addField("***clear :octagonal_sign:**","**لـ مسح الشات**")
 	  .addField("***createcolors :cyclone:**","** لـ اضافة 110 لون**")
-	  .addField("**!rainbow :camping:**","**لتغيير لون الرول كل تانية**")
+	  .addField("***rainbow :camping:**","**لتغيير لون الرول كل تانية**")
       .addField("***kick  :outbox_tray:**","**لـ طرد الأعضاء**")
       .addField("***ban  :no_entry:**","**لـ حظر الأعضاء**")
 .setColor('RANDOM')
