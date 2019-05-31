@@ -80,7 +80,7 @@ client.on('message', message => {
 if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
-      .addField("** BOT Creator :wrench: **","**@MΛTЯIXᴴᴰ#0028  **")
+      .addField("** BOT Creator :wrench: **","**@MATЯIX  **")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
